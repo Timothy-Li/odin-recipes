@@ -1,0 +1,43 @@
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.linkGrid {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.recipeGrid {
+  text-align: center;
+}
+
+.picBox {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.linkPic {
+  width: 100%;
+  height: 100%;
+}
+
+.homeTitle {
+  text-align: center;
+  width: auto;
+  background-color: #FAF9F6;
+  color: #5A5A5A;
+  height: 80px;
+}
+
+.homePageLink {
+  text-decoration: none;
+}
+
+.recipeGrid {
+  background-color: #FAF9F6;
+  text-align: center;
+}
